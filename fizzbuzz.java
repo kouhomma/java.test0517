@@ -13,7 +13,9 @@ public class fizzbuzz {
 			System.out.println("Fizz");
 		} else if (x % 5 == 0) {
 			System.out.println("Buzz");
-		} else {
+		} else if(x == 666){
+			System.out.println("悪魔の数字")
+		}else{
 			System.out.println(x);
 		}
 
